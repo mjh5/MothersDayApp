@@ -20,7 +20,7 @@
         android:id="@+id/imageView"
         android:layout_width="310dp"
         android:layout_height="378dp"
-        app:srcCompat="@drawable/MothersDay1"
+        app:srcCompat="@drawable/mothersday1"
         tools:layout_editor_absoluteX="37dp"
         tools:layout_editor_absoluteY="0dp"
         tools:onClick="buttonOnClick" />

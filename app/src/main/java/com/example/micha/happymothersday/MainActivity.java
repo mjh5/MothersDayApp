@@ -30,19 +30,19 @@ public class MainActivity extends AppCompatActivity {
         buttonToggle++;
         switch (buttonToggle % 5) {
             case 0:
-                imageView.setImageResource(R.drawable.MothersDay1);
+                imageView.setImageResource(R.drawable.mothersday1);
                 break;
             case 1:
-                imageView.setImageResource(R.drawable.MothersDay2);
+                imageView.setImageResource(R.drawable.mothersday2);
                 break;
             case 2:
-                imageView.setImageResource(R.drawable.MothersDay3);
+                imageView.setImageResource(R.drawable.mothersday3);
                 break;
             case 3:
-                imageView.setImageResource(R.drawable.MothersDay4);
+                imageView.setImageResource(R.drawable.mothersday4);
                 break;
             case 4:
-                imageView.setImageResource(R.drawable.MothersDay5);
+                imageView.setImageResource(R.drawable.mothersday5);
                 break;
         }
     }
