@@ -10,7 +10,7 @@
         android:id="@+id/button"
         android:layout_width="208dp"
         android:layout_height="71dp"
-        android:text="Button"
+        android:text="Happy Mother's Day!!!"
         tools:layout_editor_absoluteX="88dp"
         tools:layout_editor_absoluteY="424dp" />
 
