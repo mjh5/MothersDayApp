@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     /*
      * Code for ImageView and changing the resource derived from
      * https://stackoverflow.com/questions/7024881/replace-one-image-with-another-after-clicking-a-button?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+     *
+     * mp3 sounds file from
+     * http://www.soundboard.com/sb/sound/244309
      */
     public void OnClick(View v) {
 
