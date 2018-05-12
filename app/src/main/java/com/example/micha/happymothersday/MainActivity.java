@@ -7,8 +7,6 @@ import android.widget.ImageView;
 
 /**
  * MainActivity for HappyMothersDay app.
- *
- * https://stackoverflow.com/questions/7024881/replace-one-image-with-another-after-clicking-a-button?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +19,10 @@ public class MainActivity extends AppCompatActivity {
         buttonToggle = 0;
     }
 
+    /*
+     * Code for ImageView and changing the resource derived from
+     * https://stackoverflow.com/questions/7024881/replace-one-image-with-another-after-clicking-a-button?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+     */
     public void OnClick(View v) {
 
         final ImageView imageView = (ImageView) findViewById(R.id.imageView);
