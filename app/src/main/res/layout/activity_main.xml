@@ -10,9 +10,11 @@
         android:id="@+id/button"
         android:layout_width="208dp"
         android:layout_height="71dp"
+        android:onClick="OnClick"
         android:text="Happy Mother's Day!!!"
         tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="424dp" />
+        tools:layout_editor_absoluteY="424dp"
+        tools:onClick="buttonOnClick" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -20,5 +22,6 @@
         android:layout_height="378dp"
         app:srcCompat="@drawable/MothersDay1"
         tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:onClick="buttonOnClick" />
 </android.support.constraint.ConstraintLayout>
