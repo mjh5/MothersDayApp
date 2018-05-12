@@ -1,5 +1,6 @@
 package com.example.micha.happymothersday;
 
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,11 +27,13 @@ public class MainActivity extends AppCompatActivity {
     public void OnClick(View v) {
 
         final ImageView imageView = (ImageView) findViewById(R.id.imageView);
+        MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.happymothersday);
 
         buttonToggle++;
         switch (buttonToggle % 5) {
             case 0:
                 imageView.setImageResource(R.drawable.mothersday1);
+                mp.start();
                 break;
             case 1:
                 imageView.setImageResource(R.drawable.mothersday2);
